@@ -40,23 +40,23 @@ The project uses a dataset containing:
 
 The model achieves excellent performance on the test set:
 
-- **Test Accuracy**: 99.76%
-- **Test Loss**: 0.00993
+- **Test Accuracy**: 99.82%
+- **Test Loss**: 0.01256
 
 ### Confusion Matrix
 ```
 True       False  True
 Predicted             
-False       3511     8
-True          8   3193
+False       3510     7
+True          5   3198
 ```
 
 ### Classification Report
 ```
               precision    recall  f1-score   support
 
-       False       1.00      1.00      1.00      3519
-        True       1.00      1.00      1.00      3201
+       False       1.00      1.00      1.00      3515
+        True       1.00      1.00      1.00      3205
 
     accuracy                           1.00      6720
    macro avg       1.00      1.00      1.00      6720
@@ -141,8 +141,8 @@ The model demonstrates:
 - **High Precision**: 100% for both classes
 - **High Recall**: 100% for both classes
 - **Perfect F1-Score**: 1.00 for both classes
-- **Minimal False Positives**: Only 8 false positives
-- **Minimal False Negatives**: Only 8 false negatives
+- **Minimal False Positives**: Only 7 false positives
+- **Minimal False Negatives**: Only 5 false negatives
 
 ## License
 
