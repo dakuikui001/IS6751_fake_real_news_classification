@@ -118,7 +118,7 @@ Real_Fake_News_Classification/
 
 ## Text Preprocessing Pipeline
 
-1. **Text Combination**: Merge title, text, and subject
+1. **Text Combination**: Merge news title and text
 2. **Lowercasing**: Convert to lowercase
 3. **Punctuation Handling**: Add spaces around punctuation
 4. **Special Character Removal**: Remove non-alphanumeric characters
