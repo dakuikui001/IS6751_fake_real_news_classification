@@ -1,6 +1,6 @@
 # Real vs Fake News Classification using LSTM
 
-A deep learning project that classifies news articles as real or fake using LSTM (Long Short-Term Memory) neural networks with pre-trained Word2Vec embeddings.
+A deep learning project that classifies news articles as real or fake using LSTM (Long Short-Term Memory) neural networks with pre-trained GloVe embeddings.
 
 ## Project Overview
 
@@ -13,6 +13,9 @@ The project uses a dataset containing:
 - **23,481 fake news** articles
 - **21,417 real news** articles
 - Features: title, text content, subject, and date
+
+**Data Source**: [fake-and-real-news-dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset/data) by Clmentbisaillon on Kaggle.
+
 
 ### Data Split
 - **Training set**: 70% (31,428 samples)
@@ -63,6 +66,15 @@ True          8   3193
    macro avg       1.00      1.00      1.00      6720
 weighted avg       1.00      1.00      1.00      6720
 ```
+
+## Prerequisites
+
+To run this project, you must first download the pre-trained word embeddings and place them in the correct directory structure. The model relies on these vectors for initial semantic representation.
+
+### Download GloVe Embeddings
+
+- **Download the file**: Download the glove.6B.100d.txt file. This specific embedding set was trained on 6 billion tokens from Wikipedia and Gigaword and uses a 100-dimensional vector space. You can usually find this file on the [Stanford NLP GloVe Project Page](https://nlp.stanford.edu/projects/glove/).
+- **Place the file**: Place the downloaded glove.6B.100d.txt file directly into the Data/ folder as the following File Structure.
 
 ## File Structure
 
