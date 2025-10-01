@@ -2,10 +2,6 @@
 
 A deep learning project that classifies news articles as real or fake using LSTM (Long Short-Term Memory) neural networks with pre-trained GloVe embeddings.
 
-## Project Overview
-
-This project implements a binary classification system to distinguish between real and fake news articles. The model uses an LSTM architecture with pre-trained Google News Word2Vec embeddings to achieve high accuracy in news authenticity detection.
-
 ## Dataset
 
 The project uses a dataset containing:
