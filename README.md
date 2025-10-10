@@ -31,7 +31,7 @@ The project uses a dataset containing:
 
 ### Key Features
 - Pre-trained GloVe embeddings from Wikipedia and Gigaword
-- Text preprocessing with stopword removal, stemming, and lemmatization
+- Text preprocessing with stopword removal and stemming
 - Variable sequence length handling with padding
 - Early stopping to prevent overfitting
 - Class weight balancing for imbalanced dataset
@@ -124,7 +124,6 @@ Real_Fake_News_Classification/
 5. **Tokenization**: Split into words
 6. **Stopword Removal**: Remove common English stopwords
 7. **Stemming**: Apply Lancaster stemmer
-8. **Lemmatization**: Apply WordNet lemmatizer
 
 ## Model Training Features
 
