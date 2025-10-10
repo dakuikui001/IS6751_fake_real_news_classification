@@ -1,4 +1,4 @@
-# Real vs Fake News Classification using LSTM
+# Real vs Fake News Classification using GloVe + LSTM
 
 A deep learning project that classifies news articles as real or fake using LSTM (Long Short-Term Memory) neural networks with pre-trained GloVe embeddings.
 
