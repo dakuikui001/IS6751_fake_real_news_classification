@@ -95,7 +95,6 @@ Real_Fake_News_Classification/
 
 ### NLP Libraries
 - **NLTK**: Natural language processing
-- **gensim**: Word2Vec embeddings
 
 ### Visualization
 - **matplotlib**: Plotting
