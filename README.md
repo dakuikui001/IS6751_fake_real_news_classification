@@ -80,8 +80,8 @@ Real_Fake_News_Classification/
 │   ├── Fake.csv                    # Fake news dataset
 │   ├── True.csv                    # Real news dataset
 │   ├── glove.6B.100d.txt           # Pre-trained GloVe embeddings
-│   └── preprocessed_news.csv       # Preprocessed dataset
-├── Real_Fake_News_LSTM_Classification.ipynb  # Main notebook
+│   └── preprocessed_news.csv       # Preprocessed dataset for Glove+LSTM model
+├── GloVe_LSTM_Classification.ipynb  # Main notebook
 └── README.md                       # This file
 ```
 
