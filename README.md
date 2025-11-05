@@ -58,7 +58,7 @@ IS6751_fake_real_news_classification-main/
 │   ├── True.csv                      # Real news dataset
 │   └── glove.6B.100d.txt             # Pre-trained GloVe embeddings
 ├── logistics_regression.ipynb        # Baseline: Logistic Regression
-├── Real_Fake_News_LSTM_Classification.ipynb  # Improved: GloVe + LSTM
+├── Glove_LSTM_Classification.ipynb  # Improved: GloVe + LSTM
 ├── DistilRoBERTa-LSTM.ipynb          # Improved: DistilRoBERTa + LSTM
 └── README.md                         # This file
 ```
