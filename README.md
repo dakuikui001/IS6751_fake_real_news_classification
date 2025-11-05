@@ -24,7 +24,7 @@ The project uses a dataset containing:
 - Purpose: establish a simple baseline for comparison
 
 ### 2) Improved: GloVe + LSTM
-- Notebook: `Real_Fake_News_LSTM_Classification.ipynb`
+- Notebook: `Glove_LSTM_Classification.ipynb`
 - **Embedding Layer**: 100-dimensional GloVe embeddings
 - **LSTM Layer**: 64 hidden units (unidirectional)
 - **Dense Layers**:
@@ -41,13 +41,6 @@ The project uses a dataset containing:
 - **Sequence Model**: LSTM over transformer outputs
 - **Classifier**: Dense layers for binary classification
 - Key features: strong contextual representations with lightweight transformer
-
-
-## Performance Results
-
-Run each notebook to reproduce metrics for your environment. Compare the baseline against the two improved models to quantify gains from deep and transformer-based representations.
-
-
 
 ## File Structure
 
