@@ -34,11 +34,11 @@ The project uses a dataset containing:
 - **Sequence Length**: Maximum 512 tokens per article
 - Key features: pre-trained GloVe, padding, early stopping, class weights
 
-### 3) Improved: DistilRoBERTa + LSTM
+### 3) Improved: DistilRoBERTa + BiLSTM
 - Training environment: Google Colab (GPU)
 - Notebook: `DistilRoBERTa-LSTM.ipynb`
 - **Text Encoder**: DistilRoBERTa to obtain contextual token embeddings
-- **Sequence Model**: LSTM over transformer outputs
+- **Sequence Model**: BiLSTM over transformer outputs
 - **Classifier**: Dense layers for binary classification
 - Key features: strong contextual representations with lightweight transformer
 
@@ -52,7 +52,7 @@ IS6751_fake_real_news_classification-main/
 │   └── glove.6B.100d.txt             # Pre-trained GloVe embeddings
 ├── logistics_regression.ipynb        # Baseline: Logistic Regression
 ├── Glove_LSTM_Classification.ipynb  # Improved: GloVe + LSTM
-├── DistilRoBERTa-LSTM.ipynb          # Improved: DistilRoBERTa + LSTM
+├── DistilRoBERTa-BiLSTM.ipynb          # Improved: DistilRoBERTa + LSTM
 └── README.md                         # This file
 ```
 
