@@ -36,7 +36,7 @@ The project uses a dataset containing:
 
 ### 3) Improved: DistilRoBERTa + BiLSTM
 - Training environment: Google Colab (GPU)
-- Notebook: `DistilRoBERTa-LSTM.ipynb`
+- Notebook: `DistilRoBERTa-BiLSTM.ipynb`
 - **Text Encoder**: DistilRoBERTa to obtain contextual token embeddings
 - **Sequence Model**: BiLSTM over transformer outputs
 - **Classifier**: Dense layers for binary classification
@@ -52,7 +52,7 @@ IS6751_fake_real_news_classification-main/
 │   └── glove.6B.100d.txt             # Pre-trained GloVe embeddings
 ├── logistics_regression.ipynb        # Baseline: Logistic Regression
 ├── Glove_LSTM_Classification.ipynb  # Improved: GloVe + LSTM
-├── DistilRoBERTa-BiLSTM.ipynb          # Improved: DistilRoBERTa + LSTM
+├── DistilRoBERTa-BiLSTM.ipynb          # Improved: DistilRoBERTa + BiLSTM
 └── README.md                         # This file
 ```
 
