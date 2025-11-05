@@ -3,7 +3,7 @@
 This project classifies news articles as real or fake using:
 - Baseline: Logistic Regression (traditional ML)
 - Improved 1: GloVe + LSTM
-- Improved 2: DistilRoBERTa + LSTM
+- Improved 2: DistilRoBERTa + BiLSTM
 
 ## Dataset
 
